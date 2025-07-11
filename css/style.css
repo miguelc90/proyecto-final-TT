@@ -245,11 +245,11 @@ body{
 
 @media (max-width: 480px) {
   .header h1 {
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .nav {
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
     align-items: center;
   }
