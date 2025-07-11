@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+main {
+  flex-grow: 1;
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+#container-carrito {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-family: "Zilla Slab", serif;
+    color: #1B6684;
+}
+
+.card-producto{
+    width: 75%;
+}
+
+.card-producto button {
+    background-color: #ff4d4d;
+    color: #121212;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.card-producto button:hover {
+    background-color: #ff1a1a;
+    transform: translateY(-3px);
+}
+
+.mensaje-carrito {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.5em;
+    color: #b0b0b0;
+    margin-top: 50px;
+}
+
+#carrito-action {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+#carrito-action button {
+    background-color: #17af17;
+    color: #121212;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 700;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    min-width: 200px;
+}
+
+#carrito-action button:hover {
+    background-color: #0d3664c2;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+#carrito-action .btn-vaciar{
+    background-color: aqua;
+}
+
+
+@media (min-width: 768px) {
+
+  #container-carrito h2 {
+    font-size: 5.5em;
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+
+
+  #contenedor-carrito {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  #container-carrito h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+
+
+  #carrito-action {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #carrito-action button {
+    width: 90%;
+    margin-right: 120px;
+  }
+
+  .section-info h2{
+    margin-right: 25px;
+  }
+}

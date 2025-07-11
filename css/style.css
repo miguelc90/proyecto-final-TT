@@ -62,6 +62,7 @@ body{
     transition: color 0.3s ease, transform 0.2s ease;
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
 
 .nav-link:hover{
@@ -245,7 +246,7 @@ body{
 
 @media (max-width: 480px) {
   .header h1 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .nav {
@@ -258,15 +259,15 @@ body{
     font-size: 1em;
   }
 
-  #section-productos {
+  #section-info {
     grid-template-columns: 1fr;
     padding: 40px 15px;
     gap: 30px;
   }
 
-  .section-productos h2 {
-    font-size: 3em;
-    margin-bottom: 40px;
+  .section-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
   }
 
   .card-producto {
@@ -288,5 +289,9 @@ body{
   .card-producto button {
     padding: 12px 25px;
     font-size: 1.1em;
+  }
+
+  .footer{
+    font-size: 0.8rem;
   }
 }
