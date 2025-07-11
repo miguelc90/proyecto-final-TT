@@ -5,7 +5,7 @@
     aplicando los conocimientos en html, css, js, git.
 
 # Propósito del proyecto
-    Está pensado para que cualquier usuario pueda visualuzar el contenido de los productos ofrecidos
+    Está pensado para que cualquier usuario pueda visualizar el contenido de los productos ofrecidos
     y poder agregar a un carrito de compras dichos productos, en la seccion del carrito se podrán ver
     los items que se hayan elegido, en el caso que no se hayan agregado items, se mostrará una mensaje de carrito vacio.
 
