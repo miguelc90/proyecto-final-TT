@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
             btnFinalizarCompra.addEventListener("click", () => {
                 Swal.fire({
                     title: "¿Deseas finalizar la compra?",
-                    text: "esta accion no se puede deshacer",
+                    text: "Esta acción no se puede deshacer",
                     icon: "warning",
                     showCancelButton: true,
                     confirmButtonColor: "#3085d6",
@@ -80,8 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 }).then((result) => {
                     if (result.isConfirmed) {
                         Swal.fire({
-                            title: "Compra realizada",
-                            text: "Gracias por tu compra.",
+                            title: "Compra Realizada",
+                            text: "Gracias por elegirnos.",
                             icon: "success"
                         }).then(() => {
                             localStorage.removeItem("carrito");
@@ -110,8 +110,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const vaciarCarrito = () => {
         Swal.fire({
-            title: "Esta seguro que quiere vaciar el carrito",
-            text: "esta accion no se puede deshacer",
+            title: "¿Está seguro de que quiere vaciar el carrito?",
+            text: "Esta acción no se puede deshacer",
             icon: "warning",
             showCancelButton: true,
             confirmButtonColor: "#3085d6",
