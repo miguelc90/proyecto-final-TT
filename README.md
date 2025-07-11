@@ -1,7 +1,7 @@
 # proyecto-final-TT
 
 # E-commerce - Spektra - System
-    Se trata de una web para el comercio de laptos, donde se volcó lo aprendido a lo largo de la cursada
+    Se trata de una web para el comercio de laptops, donde se volcó lo aprendido a lo largo de la cursada
     aplicando los conocimientos en html, css, js, git.
 
 # Propósito del proyecto
